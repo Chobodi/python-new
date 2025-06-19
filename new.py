@@ -8,8 +8,9 @@ with open("c:\\Users\\chobodi\\Desktop\\Staff Research\\VCS Research\\Test Proje
 # 2. Extract words
 import re
 words = re.findall(r'\b\w+\b', content)
-
-# 3. Print the words
+# 3. Sort the words
+words_sorted = sorted(words, key=str.lower)
+# 4. Print the sorted words
 print("Extracted words:")
-for word in words:
+for word in words_sorted:
     print(word)
