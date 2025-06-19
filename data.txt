@@ -1,0 +1,2 @@
+Hello, this is a sample data file.
+It contains several words, numbers like 123, and symbols!
