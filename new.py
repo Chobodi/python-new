@@ -20,5 +20,3 @@ doc.add_heading('Sorted Words from File', level=1)
 for word in words_sorted:
     doc.add_paragraph(word)
 
-# 6. Save the document
-doc.save("c:\\Users\\chobodi\\Desktop\\sorted_words.docx")
